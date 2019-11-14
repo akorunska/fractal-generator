@@ -1,6 +1,7 @@
 import getopt, sys
 from .get_fractal_type import possible_options
 
+
 def print_help():
     print('fractal_generator.py -f mandelbrot -a <picture_height> -b <picture_width> -x <x_point> -y <y_point> '
           '-z <zoom> -p <power> -d <depth> -c <color> -o <output_filename>')
@@ -38,18 +39,18 @@ def parse_input_mandelbrot(argv):
         elif opt == '-b':
             options['width'] = int(arg)
         elif opt == '-x':
-            options['x'] = int(arg)
+            options['x'] = float(arg)
         elif opt == '-y':
-            options['y'] = int(arg)
+            options['y'] = float(arg)
         elif opt == '-z':
-            options['zoom'] = int(arg)
+            options['zoom'] = float(arg)
         elif opt == '-p':
-            options['power'] = int(arg)
+            options['power'] = float(arg)
         elif opt == '-d':
             options['depth'] = int(arg)
         elif opt == '-c':
-            options['color'] = arg
+            options['color'] = int(arg, 16)
         elif opt == '-o':
-            options['output_filename'] = int(arg)
+            options['output_filename'] = arg
     # todo: validate the options
     return options
