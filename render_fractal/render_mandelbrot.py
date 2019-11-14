@@ -2,6 +2,7 @@ import math
 from PIL import Image
 import numpy as np
 
+
 def render_mandelbrot(options):
     height = options['height']
     width = options['width']
@@ -11,7 +12,7 @@ def render_mandelbrot(options):
     pow = options['power']
     color = options['color']
     lim = options['depth']
-    pixels = [[0] * width] * height
+    pixels = np.zeros((height, width, 3), 'uint8')
 
     for i in range(height):
         for j in range(width):
@@ -34,17 +35,22 @@ def render_mandelbrot(options):
                 if a**2 + b**2 > 4:
                     break
                 n += 1
-            if n == 100:
-                pixels[i][j] = 0
+            if n == lim:
+                pixels[i][j][0] = 0
+                pixels[i][j][1] = 0
+                pixels[i][j][2] = 0
+
             else:
-                pixels[i][j] = int((color ** 2) / (lim * (n + 1)))
+                pixels[i][j][0] = 50
+                pixels[i][j][1] = 50
+                pixels[i][j][2] = int(n / lim * 255)
 
-    print(pixels)
-    # np_result_array = np.asarray(pixels)
-    # print(np_result_array)
-    # img = Image.fromarray(np_result_array, "RGB")
-    # if img.mode != 'RGB':
-    #     img = img.convert('RGB')
 
-    img = Image.fromarray(pixels, 'L')
-    img.save('out.jpeg')
+  #  print(pixels)
+    np_result_array = np.asarray(pixels)
+    print(np_result_array)
+    img = Image.fromarray(np_result_array, "RGB")
+ #   if img.mode != 'RGB':
+  #      img = img.convert('RGB')
+    print(img)
+    img.save(options['output_filename'])
