@@ -18,6 +18,7 @@ pip install -r requirements.txt
 You are welcome to play around with the parameters and see where it leads you.
 Try out this examples to get an idea about how different parameters would affect the mandelbrot fractal:
 
+You can also use `--output_to_stdout=true` option to get bytestream printed to stdout instead of a png picture saved on the disk.
 ```
 python fractal_generator.py -f mandelbrot  -a 500 -b 500 -x -4 -y 0 -z 14.0 -p 2 -c \#e5884f -o my_mandelbrot.png
 ```

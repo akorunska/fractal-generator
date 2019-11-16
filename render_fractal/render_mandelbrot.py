@@ -1,5 +1,4 @@
 import math
-from PIL import Image
 import numpy as np
 
 
@@ -53,8 +52,4 @@ def render_mandelbrot(options):
                 pixels[i][j][1] = int(n / lim * g) % 256
                 pixels[i][j][2] = int(n / lim * b) % 256
 
-
-    np_result_array = np.asarray(pixels)
-    img = Image.fromarray(np_result_array, "RGB")
-
-    img.save(options['output_filename'])
+    return pixels
