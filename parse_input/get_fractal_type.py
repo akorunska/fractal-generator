@@ -1,7 +1,7 @@
 import getopt, sys
 
-possible_options = "hf:a:b:x:y:z:p:c:o:"
-fractal_types = ['mandelbrot']
+possible_options = "hf:a:b:x:y:i:j:z:p:c:o:"
+fractal_types = ['mandelbrot', 'julia']
 
 
 def print_help():
