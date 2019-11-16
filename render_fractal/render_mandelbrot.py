@@ -6,13 +6,21 @@ import numpy as np
 def render_mandelbrot(options):
     height = options['height']
     width = options['width']
-    scale = options['zoom']
-    x_offset = options['x']
-    y_offset = options['y']
+    zoom = options['zoom']
+    scale = 5.0
+    while zoom:
+        scale -= 0.1 * scale
+        zoom -= 1
+    x_offset = options['x'] * 0.1 * scale
+    y_offset = options['y'] * 0.1 * scale
     pow = options['power']
     color = options['color']
-    lim = options['depth']
+    lim = 50 * math.pow(math.log(10 / scale, 10), 1.2)
+    if lim < 20:
+        lim = 20
     pixels = np.zeros((height, width, 3), 'uint8')
+
+    (r, g, b) = tuple(int(color[i:i+2], 16) for i in (0, 2, 4))
 
     for i in range(height):
         for j in range(width):
@@ -41,16 +49,12 @@ def render_mandelbrot(options):
                 pixels[i][j][2] = 0
 
             else:
-                pixels[i][j][0] = 50
-                pixels[i][j][1] = 50
-                pixels[i][j][2] = int(n / lim * 255)
+                pixels[i][j][0] = int(n / lim * r) % 256
+                pixels[i][j][1] = int(n / lim * g) % 256
+                pixels[i][j][2] = int(n / lim * b) % 256
 
 
-  #  print(pixels)
     np_result_array = np.asarray(pixels)
-    print(np_result_array)
     img = Image.fromarray(np_result_array, "RGB")
- #   if img.mode != 'RGB':
-  #      img = img.convert('RGB')
-    print(img)
+
     img.save(options['output_filename'])

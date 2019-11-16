@@ -16,7 +16,8 @@ pip install -r requirements.txt
 ### usage
 
 ```
-python fractal_generator.py -f mandelbrot -a 400 -b 4000 -x 120 -y 10 -z 6 -p 2 -d 10 -c <color> -o my_mandelbrot.png
+python fractal_generator.py -f mandelbrot  -a 500 -b 500 -x -4 -y 0 -z 14.0 -p 2 -c \#5f9e9a -o my_mandelbrot.png
+python fractal_generator.py -f mandelbrot  -a 500 -b 500 -x -9 -y -7 -z 20.0 -p 2 -c \#f025aa -o my_mandelbrot.png
 
 ```
 Will render mandelbrot fractal and save is as my_mandelbrot.png.

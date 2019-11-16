@@ -1,6 +1,6 @@
 import getopt, sys
 
-possible_options = "hf:a:b:x:y:z:p:d:c:o:"
+possible_options = "hf:a:b:x:y:z:p:c:o:"
 fractal_types = ['mandelbrot']
 
 

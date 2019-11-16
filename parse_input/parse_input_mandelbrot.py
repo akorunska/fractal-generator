@@ -17,7 +17,6 @@ def parse_input_mandelbrot(argv):
         'y': -1,
         'zoom': 0,
         'power': 0,
-        'depth': 0,
         "color": "",
         'output_filename': "fractal.png"
     }
@@ -46,10 +45,8 @@ def parse_input_mandelbrot(argv):
             options['zoom'] = float(arg)
         elif opt == '-p':
             options['power'] = float(arg)
-        elif opt == '-d':
-            options['depth'] = int(arg)
         elif opt == '-c':
-            options['color'] = int(arg, 16)
+            options['color'] = arg.lstrip('#')
         elif opt == '-o':
             options['output_filename'] = arg
     # todo: validate the options

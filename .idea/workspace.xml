@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="eac56ee2-3957-4b8d-98bd-0e268dc13680" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_mandelbrot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parse_input/get_fractal_type.py" beforeDir="false" afterPath="$PROJECT_DIR$/parse_input/get_fractal_type.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parse_input/parse_input_mandelbrot.py" beforeDir="false" afterPath="$PROJECT_DIR$/parse_input/parse_input_mandelbrot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/render_fractal/render_mandelbrot.py" beforeDir="false" afterPath="$PROJECT_DIR$/render_fractal/render_mandelbrot.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,43 +18,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parse_input/parse_input_mandelbrot.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="51" column="42" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parse_input/get_fractal_type.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/render_fractal/render_mandelbrot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/lib/python3.6/posixpath.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="128" selection-start-line="128" selection-end-line="128" />
+            <state>
+              <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -60,14 +31,14 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fractal_generator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="270">
+                <caret line="18" column="113" selection-start-line="18" selection-start-column="113" selection-end-line="18" selection-end-column="113" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -89,17 +60,17 @@
       <list>
         <option value="$PROJECT_DIR$/parse_input/parse_input.py" />
         <option value="$PROJECT_DIR$/parse_input/__init__.py" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/parse_input/get_fractal_type.py" />
         <option value="$PROJECT_DIR$/render_fractal/__init__.py" />
         <option value="$PROJECT_DIR$/fractal_generator.py" />
         <option value="$PROJECT_DIR$/parse_input/parse_input_mandelbrot.py" />
+        <option value="$PROJECT_DIR$/parse_input/get_fractal_type.py" />
         <option value="$PROJECT_DIR$/render_fractal/render_mandelbrot.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="7" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="153" />
     <option name="y" value="27" />
     <option name="width" value="1458" />
     <option name="height" value="883" />
@@ -173,7 +144,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fractal_generator.py" />
-      <option name="PARAMETERS" value="-f mandelbrot  -a 50 -b 100 -x 0 -y 0 -z 2.0 -p 2 -d 100 -c 0f0f0f -o my_mandelbrot.png" />
+      <option name="PARAMETERS" value="-f mandelbrot  -a 500 -b 500 -x 10 -y 10 -z 1.0 -p 2 -c #f025a4 -o my_mandelbrot.png" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -194,22 +165,24 @@
       <updated>1573761409131</updated>
       <workItem from="1573761412008" duration="3346000" />
       <workItem from="1573764777514" duration="8438000" />
+      <workItem from="1573895152437" duration="978000" />
+      <workItem from="1573896749599" duration="3340000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11784000" />
+    <option name="totallyTimeSpent" value="16102000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1920" height="988" extended-state="7" />
+    <frame x="0" y="27" width="1920" height="988" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22411953" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17609392" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36959064" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26081872" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -218,7 +191,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32748538" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32748538" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -227,12 +200,12 @@
       <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22411953" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22945571" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36959064" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26081872" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -241,7 +214,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32748538" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32748538" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -258,14 +231,15 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/render_fractal/render_mandelbrot.py</url>
-          <line>55</line>
-          <option name="timeStamp" value="4" />
+          <line>51</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/fractal_generator$Unnamed.coverage" NAME="fractal_generator Coverage Results" MODIFIED="1573773191289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fractal_generator$fractal_generator.coverage" NAME="fractal_generator Coverage Results" MODIFIED="1573898426030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/parse_input/__init__.py">
@@ -281,16 +255,6 @@
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="270">
-            <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="117" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/render_fractal/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -298,34 +262,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parse_input/get_fractal_type.py">
+    <entry file="file://$PROJECT_DIR$/out.png" />
+    <entry file="file://$PROJECT_DIR$/out.bmp" />
+    <entry file="file://$PROJECT_DIR$/out.jpeg" />
+    <entry file="file:///usr/lib/python3/dist-packages/PIL/Image.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+        <state relative-caret-position="677">
+          <caret line="1908" selection-start-line="1908" selection-end-line="1908" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out.bmp">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file:///usr/lib/python3.6/posixpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="128" selection-start-line="128" selection-end-line="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parse_input/get_fractal_type.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/parse_input/parse_input_mandelbrot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="51" column="42" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
+        <state relative-caret-position="-95">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_mandelbrot.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/fractal_generator.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -337,27 +306,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/lib/python3.6/posixpath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="128" selection-start-line="128" selection-end-line="128" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3/dist-packages/PIL/Image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="677">
-          <caret line="1908" selection-start-line="1908" selection-end-line="1908" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/render_fractal/render_mandelbrot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_mandelbrot.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="270">
+            <caret line="18" column="113" selection-start-line="18" selection-start-column="113" selection-end-line="18" selection-end-column="113" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
