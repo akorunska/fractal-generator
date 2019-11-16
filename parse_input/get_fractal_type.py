@@ -1,6 +1,7 @@
 import getopt, sys
 
 possible_options = "hf:a:b:x:y:i:j:z:p:c:o:"
+possible_flags = ['output_to_stdout=', ]
 fractal_types = ['mandelbrot', 'julia']
 
 
@@ -19,6 +20,7 @@ def get_fractal_type(argv):
         opts, args = getopt.getopt(
             argv,
             possible_options,
+            possible_flags,
         )
     except getopt.GetoptError:
         print_help()

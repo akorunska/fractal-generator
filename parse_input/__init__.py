@@ -1,3 +1,2 @@
 from .get_fractal_type import get_fractal_type
-from .parse_input_mandelbrot import parse_input_mandelbrot
-from .parse_input_julia import parse_input_julia
+from .parse_input_mandelbrot_julia import parse_input_mandelbrot_julia
