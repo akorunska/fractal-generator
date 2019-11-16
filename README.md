@@ -35,4 +35,11 @@ python fractal_generator.py -f mandelbrot  -a 500 -b 500 -x 0 -y 0 -z 14.0 -p 5.
 ![Power 2.5 exapmle](examples/mandelbrot_power_2_5.png)
 ![Power 5.75 example](examples/mandelbrot_power_5_75.png)
 
+```
+python fractal_generator.py -f julia  -a 500 -b 500 -x 0 -y 0 -i 300 -j 300 -z 12 -p 2 -c \#ffffff -o my_julia.png
+python fractal_generator.py -f julia  -a 500 -b 500 -x 0 -y 0 -i 250 -j 350 -z 12 -p 3 -c \#ffffff -o my_julia.png
+```
+![Basic julias example](examples/julia_basic.png)
+![Julia power 3](examples/julia_power_3.png)
+
 _made by @akorunska with love_
