@@ -4,7 +4,7 @@ from .get_fractal_type import possible_options
 
 def print_help():
     print('fractal_generator.py -f mandelbrot -a <picture_height> -b <picture_width> -x <x_point> -y <y_point> '
-          '-z <zoom> -p <power> -d <depth> -c <color> -o <output_filename>')
+          '-z <zoom> -p <power> -c <color> -o <output_filename>')
     sys.exit(2)
 
 
