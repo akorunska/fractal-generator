@@ -14,12 +14,12 @@ def render_mandelbrot(options):
     y_offset = options['y'] * 0.1 * scale
     pow = options['power']
     color = options['color']
-    lim = 50 * math.pow(math.log(10 / scale, 10), 1.2)
-    if lim < 20:
-        lim = 20
+    lim = int(50 * math.pow(math.log(10 / scale, 10), 1.2))
+    if lim < 1000:
+        lim = 1000
     pixels = np.zeros((height, width, 3), 'uint8')
 
-    (r, g, b) = tuple(int(color[i:i+2], 16) for i in (0, 2, 4))
+    (rr, gg, bb) = tuple(int(color[i:i+2], 16) for i in (0, 2, 4))
 
     for i in range(height):
         for j in range(width):
@@ -47,9 +47,10 @@ def render_mandelbrot(options):
                 pixels[i][j][1] = 0
                 pixels[i][j][2] = 0
 
+
             else:
-                pixels[i][j][0] = int(n / lim * r) % 256
-                pixels[i][j][1] = int(n / lim * g) % 256
-                pixels[i][j][2] = int(n / lim * b) % 256
+                 pixels[i][j][0] = rr
+                 pixels[i][j][1] = gg
+                 pixels[i][j][2] = int((lim - n) / lim * 100 * bb)
 
     return pixels

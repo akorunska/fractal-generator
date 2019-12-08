@@ -8,7 +8,8 @@ import io
 
 def output_result(options, pixels):
     np_result_array = np.asarray(pixels)
-    img = Image.fromarray(np_result_array, "RGB")
+    img = Image.fromarray(np_result_array, "HSV")
+    img = img.convert("RGB")
 
     if options['print_to_stdout']:
         imgByteArr = io.BytesIO()

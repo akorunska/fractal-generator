@@ -21,7 +21,7 @@ def render_julia(options):
         lim = 20
     pixels = np.zeros((height, width, 3), 'uint8')
 
-    (r, g, b) = tuple(int(color[i:i+2], 16) for i in (0, 2, 4))
+    (rr, gg, bb) = tuple(int(color[i:i+2], 16) for i in (0, 2, 4))
 
     for i in range(height):
         for j in range(width):
@@ -57,9 +57,10 @@ def render_julia(options):
                 pixels[i][j][1] = 0
                 pixels[i][j][2] = 0
 
+
             else:
-                pixels[i][j][0] = int(n / lim * r) % 256
-                pixels[i][j][1] = int(n / lim * g) % 256
-                pixels[i][j][2] = int(n / lim * b) % 256
+                 pixels[i][j][0] = rr
+                 pixels[i][j][1] = gg
+                 pixels[i][j][2] = int((lim - n) / lim * 100 * bb)
 
     return pixels
