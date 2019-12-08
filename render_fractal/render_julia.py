@@ -16,9 +16,9 @@ def render_julia(options):
     j_pos = options['j_pos']
     pow = options['power']
     color = options['color']
-    lim = 50 * math.pow(math.log(10 / scale, 10), 1.2)
-    if lim < 20:
-        lim = 20
+    # lim = 50 * math.pow(math.log(10 / scale, 10), 1.2)
+    # if lim < 20:
+    lim = 50
     pixels = np.zeros((height, width, 3), 'uint8')
 
     (rr, gg, bb) = tuple(int(color[i:i+2], 16) for i in (0, 2, 4))

@@ -14,9 +14,10 @@ def render_mandelbrot(options):
     y_offset = options['y'] * 0.1 * scale
     pow = options['power']
     color = options['color']
-    lim = int(50 * math.pow(math.log(10 / scale, 10), 1.2))
-    if lim < 1000:
-        lim = 1000
+    # lim = int(50 * math.pow(math.log(10 / scale, 10), 1.2))
+    # if lim < 1000:
+    #     lim = 1000
+    lim = 250
     pixels = np.zeros((height, width, 3), 'uint8')
 
     (rr, gg, bb) = tuple(int(color[i:i+2], 16) for i in (0, 2, 4))
