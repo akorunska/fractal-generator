@@ -20,7 +20,7 @@ def render_mandelbrot(options):
     pixels = np.zeros((height, width, 3), 'uint8')
 
     (rr, gg, bb) = tuple(int(color[i:i+2], 16) for i in (0, 2, 4))
-
+    # print(bb)
     for i in range(height):
         for j in range(width):
 

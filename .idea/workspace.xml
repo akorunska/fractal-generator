@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eac56ee2-3957-4b8d-98bd-0e268dc13680" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/fractal-generator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fractal-generator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fractal_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/fractal_generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/render_fractal/render_julia.py" beforeDir="false" afterPath="$PROJECT_DIR$/render_fractal/render_julia.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/julia_basic.png" beforeDir="false" afterPath="$PROJECT_DIR$/examples/julia_basic.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/julia_power_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/mandelbrot_basic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/mandelbrot_power_2_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/mandelbrot_power_5_75.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/mandelbrot_zoom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_julia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_mandelbrot.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/render_fractal/render_mandelbrot.py" beforeDir="false" afterPath="$PROJECT_DIR$/render_fractal/render_mandelbrot.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +25,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/render_fractal/render_julia.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
+            <state relative-caret-position="330">
               <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
@@ -29,30 +34,42 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="405">
-                <caret line="39" column="114" lean-forward="true" selection-start-line="39" selection-end-line="39" selection-end-column="114" />
+              <first_editor relative-caret-position="441">
+                <caret line="44" column="39" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/my_julia.png">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/julia_basic.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/render_fractal/render_mandelbrot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+            <state relative-caret-position="765">
+              <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fractal_generator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,10 +97,10 @@
         <option value="$PROJECT_DIR$/parse_input/__init__.py" />
         <option value="$PROJECT_DIR$/parse_input/get_fractal_type.py" />
         <option value="$PROJECT_DIR$/parse_input/parse_input_mandelbrot_julia.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/fractal_generator.py" />
-        <option value="$PROJECT_DIR$/render_fractal/render_mandelbrot.py" />
         <option value="$PROJECT_DIR$/render_fractal/render_julia.py" />
+        <option value="$PROJECT_DIR$/render_fractal/render_mandelbrot.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -109,12 +126,21 @@
             <path>
               <item name="fractal-generator" type="b2602c69:ProjectViewProjectNode" />
               <item name="fractal-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fractal-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fractal-generator" type="462c0819:PsiDirectoryNode" />
               <item name="parse_input" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fractal-generator" type="b2602c69:ProjectViewProjectNode" />
               <item name="fractal-generator" type="462c0819:PsiDirectoryNode" />
               <item name="render_fractal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fractal-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -193,17 +219,22 @@
       <workItem from="1573896749599" duration="7750000" />
       <workItem from="1573941496834" duration="2786000" />
       <workItem from="1574088249960" duration="943000" />
-      <workItem from="1575727264482" duration="10321000" />
+      <workItem from="1575727264482" duration="10578000" />
+      <workItem from="1575816759901" duration="555000" />
+      <workItem from="1575817335509" duration="3962000" />
+      <workItem from="1575826470168" duration="293000" />
+      <workItem from="1575826788178" duration="33000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34562000" />
+    <option name="totallyTimeSpent" value="39662000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="988" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18036287" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13767342" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -217,8 +248,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.2877193" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2643275" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32982457" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -226,7 +257,7 @@
       <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18036287" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18463181" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -240,8 +271,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2877193" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2643275" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32982457" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -274,21 +305,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/mandelbrot_zoom.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/mandelbrot_basic.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/mandelbrot_power_2_5.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/mandelbrot_power_5_75.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/render_fractal/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -300,12 +316,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my_mandelbrot1.png" />
-    <entry file="file://$PROJECT_DIR$/examples/julia_basic.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/julia_power_3.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/parse_input/parse_input_mandelbrot.py" />
     <entry file="file://$PROJECT_DIR$/parse_input/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -342,25 +352,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_mandelbrot.jpeg">
+    <entry file="file://$PROJECT_DIR$/my_mandelbrot.jpeg" />
+    <entry file="file://$PROJECT_DIR$/my_julia.png" />
+    <entry file="file://$PROJECT_DIR$/my_mandelbrot.png" />
+    <entry file="file://$PROJECT_DIR$/mandelbrot_basic.png" />
+    <entry file="file://$PROJECT_DIR$/mandelbrot.png" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/mandelbrot_zoom.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/fractal_generator.py">
+    <entry file="file://$PROJECT_DIR$/examples/mandelbrot_power_2_5.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/mandelbrot_basic.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_mandelbrot.png">
+    <entry file="file://$PROJECT_DIR$/examples/mandelbrot_power_5_75.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/julia_power_3.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/render_fractal/render_julia.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
+        <state relative-caret-position="330">
           <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
@@ -368,12 +392,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/examples/julia_basic.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/render_fractal/render_mandelbrot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        <state relative-caret-position="765">
+          <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fractal_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -381,15 +418,12 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="405">
-            <caret line="39" column="114" lean-forward="true" selection-start-line="39" selection-end-line="39" selection-end-column="114" />
+          <first_editor relative-caret-position="441">
+            <caret line="44" column="39" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_julia.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
